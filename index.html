@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Management</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: #f0f2f5;
+            color: #1a1a2e;
+        }
+
+        /* NAV */
+        nav {
+            background: #1a1a2e;
+            color: white;
+            padding: 0 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 60px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav h1 { font-size: 1.2rem; font-weight: 600; letter-spacing: 1px; }
+
+        #auth-status {
+            font-size: 0.85rem;
+            color: #a0aec0;
+        }
+
+        #logout-btn {
+            background: #e53e3e;
+            color: white;
+            border: none;
+            padding: 0.4rem 1rem;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-left: 1rem;
+            display: none;
+        }
+
+        /* TABS */
+        .tabs {
+            display: flex;
+            background: white;
+            border-bottom: 2px solid #e2e8f0;
+            padding: 0 2rem;
+            overflow-x: auto;
+        }
+
+        .tab {
+            padding: 1rem 1.5rem;
+            cursor: pointer;
+            font-size: 0.9rem;
+            font-weight: 500;
+            color: #718096;
+            border-bottom: 2px solid transparent;
+            margin-bottom: -2px;
+            white-space: nowrap;
+            transition: all 0.2s;
+        }
+
+        .tab:hover { color: #1a1a2e; }
+        .tab.active { color: #1a1a2e; border-bottom-color: #667eea; }
+
+        /* CONTENT */
+        .content {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .panel { display: none; }
+        .panel.active { display: block; }
+
+        /* CARDS */
+        .card {
+            background: white;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+
+        .card h2 {
+            font-size: 1rem;
+            margin-bottom: 1rem;
+            color: #1a1a2e;
+            font-weight: 600;
+        }
+
+        /* FORMS */
+        .form-group {
+            margin-bottom: 0.75rem;
+        }
+
+        label {
+            display: block;
+            font-size: 0.8rem;
+            font-weight: 500;
+            color: #4a5568;
+            margin-bottom: 0.3rem;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 0.5rem 0.75rem;
+            border: 1px solid #e2e8f0;
+            border-radius: 4px;
+            font-size: 0.9rem;
+            color: #1a1a2e;
+            background: #f7fafc;
+            transition: border 0.2s;
+        }
+
+        input:focus, select:focus, textarea:focus {
+            outline: none;
+            border-color: #667eea;
+            background: white;
+        }
+
+        textarea { resize: vertical; min-height: 80px; }
+
+        /* BUTTONS */
+        .btn {
+            padding: 0.5rem 1.2rem;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.85rem;
+            font-weight: 500;
+            transition: opacity 0.2s;
+        }
+
+        .btn:hover { opacity: 0.85; }
+        .btn-primary { background: #667eea; color: white; }
+        .btn-danger { background: #e53e3e; color: white; }
+        .btn-success { background: #38a169; color: white; }
+        .btn-sm { padding: 0.3rem 0.7rem; font-size: 0.8rem; }
+
+        /* TABLE */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.85rem;
+        }
+
+        th {
+            text-align: left;
+            padding: 0.6rem 0.75rem;
+            background: #f7fafc;
+            color: #4a5568;
+            font-weight: 600;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        td {
+            padding: 0.6rem 0.75rem;
+            border-bottom: 1px solid #f0f2f5;
+            color: #2d3748;
+        }
+
+        tr:last-child td { border-bottom: none; }
+        tr:hover td { background: #f7fafc; }
+
+        /* ALERTS */
+        .alert {
+            padding: 0.75rem 1rem;
+            border-radius: 4px;
+            margin-bottom: 1rem;
+            font-size: 0.85rem;
+            display: none;
+        }
+
+        .alert-success { background: #c6f6d5; color: #276749; }
+        .alert-error { background: #fed7d7; color: #9b2c2c; }
+
+        /* TWO COLUMN */
+        .two-col {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+        }
+
+        @media (max-width: 600px) {
+            .two-col { grid-template-columns: 1fr; }
+            .tabs { padding: 0 0.5rem; }
+            .tab { padding: 0.75rem 1rem; }
+        }
+
+        /* BADGE */
+        .badge {
+            display: inline-block;
+            padding: 0.2rem 0.5rem;
+            border-radius: 12px;
+            font-size: 0.75rem;
+            font-weight: 500;
+        }
+
+        .badge-green { background: #c6f6d5; color: #276749; }
+        .badge-yellow { background: #fefcbf; color: #744210; }
+        .badge-blue { background: #bee3f8; color: #2a4365; }
+    </style>
+</head>
+<body>
+
+<nav>
+    <h1>🎫 Event Management</h1>
+    <div style="display:flex;align-items:center;">
+        <span id="auth-status">Not logged in</span>
+        <button id="logout-btn" onclick="logout()">Logout</button>
+    </div>
+</nav>
+
+<div class="tabs">
+    <div class="tab active" onclick="switchTab('auth')">Login / Register</div>
+    <div class="tab" onclick="switchTab('events')">Events</div>
+    <div class="tab" onclick="switchTab('categories')">Categories</div>
+    <div class="tab" onclick="switchTab('locations')">Locations</div>
+    <div class="tab" onclick="switchTab('registrations')">My Registrations</div>
+    <div class="tab" onclick="switchTab('comments')">Comments</div>
+    <div class="tab" onclick="switchTab('admin')">Admin</div>
+</div>
+
+<div class="content">
+
+    <!-- ALERT -->
+    <div id="alert" class="alert"></div>
+
+    <!-- AUTH PANEL -->
+    <div id="panel-auth" class="panel active">
+        <div class="two-col">
+            <div class="card">
+                <h2>Login</h2>
+                <div class="form-group">
+                    <label>Username</label>
+                    <input id="login-username" type="text" placeholder="Enter username">
+                </div>
+                <div class="form-group">
+                    <label>Password</label>
+                    <input id="login-password" type="password" placeholder="Enter password">
+                </div>
+                <button class="btn btn-primary" onclick="login()">Login</button>
+            </div>
+            <div class="card">
+                <h2>Register</h2>
+                <div class="form-group">
+                    <label>Username</label>
+                    <input id="reg-username" type="text" placeholder="Enter username">
+                </div>
+                <div class="form-group">
+                    <label>Password</label>
+                    <input id="reg-password" type="password" placeholder="Min 8 characters">
+                </div>
+                <div class="form-group">
+                    <label>First Name</label>
+                    <input id="reg-firstname" type="text" placeholder="Enter first name">
+                </div>
+                <div class="form-group">
+                    <label>Last Name</label>
+                    <input id="reg-lastname" type="text" placeholder="Enter last name">
+                </div>
+                <div class="form-group">
+                    <label>Email</label>
+                    <input id="reg-email" type="email" placeholder="Enter email">
+                </div>
+                <div class="form-group">
+                    <label>Phone (optional)</label>
+                    <input id="reg-phone" type="text" placeholder="Enter phone">
+                </div>
+                <button class="btn btn-primary" onclick="register()">Register</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Change Password</h2>
+            <div class="two-col">
+                <div class="form-group">
+                    <label>Username</label>
+                    <input id="cp-username" type="text" placeholder="Enter username">
+                </div>
+                <div class="form-group">
+                    <label>Old Password</label>
+                    <input id="cp-old" type="password" placeholder="Enter old password">
+                </div>
+                <div class="form-group">
+                    <label>New Password</label>
+                    <input id="cp-new" type="password" placeholder="Enter new password">
+                </div>
+            </div>
+            <button class="btn btn-primary" onclick="changePassword()">Change Password</button>
+        </div>
+    </div>
+
+    <!-- EVENTS PANEL -->
+    <div id="panel-events" class="panel">
+        <div class="card">
+            <h2>Create Event</h2>
+            <div class="two-col">
+                <div class="form-group">
+                    <label>Title</label>
+                    <input id="ev-title" type="text" placeholder="Event title">
+                </div>
+                <div class="form-group">
+                    <label>Max Capacity</label>
+                    <input id="ev-capacity" type="number" placeholder="Max attendees">
+                </div>
+                <div class="form-group">
+                    <label>Start Date/Time</label>
+                    <input id="ev-datetime" type="datetime-local">
+                </div>
+                <div class="form-group">
+                    <label>Organizer ID</label>
+                    <input id="ev-organizer" type="number" placeholder="User ID">
+                </div>
+                <div class="form-group">
+                    <label>Location ID</label>
+                    <input id="ev-location" type="number" placeholder="Location ID">
+                </div>
+                <div class="form-group">
+                    <label>Category ID</label>
+                    <input id="ev-category" type="number" placeholder="Category ID">
+                </div>
+            </div>
+            <div class="form-group">
+                <label>Description</label>
+                <textarea id="ev-description" placeholder="Event description"></textarea>
+            </div>
+            <button class="btn btn-primary" onclick="createEvent()">Create Event</button>
+        </div>
+
+        <div class="card">
+            <h2>All Events</h2>
+            <button class="btn btn-primary btn-sm" onclick="loadEvents()" style="margin-bottom:1rem">Refresh</button>
+            <table id="events-table">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Title</th>
+                        <th>Date</th>
+                        <th>Location</th>
+                        <th>Category</th>
+                        <th>Capacity</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="events-body"></tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- CATEGORIES PANEL -->
+    <div id="panel-categories" class="panel">
+        <div class="card">
+            <h2>Create Category</h2>
+            <div class="form-group">
+                <label>Name</label>
+                <input id="cat-name" type="text" placeholder="Category name">
+            </div>
+            <button class="btn btn-primary" onclick="createCategory()">Create</button>
+        </div>
+        <div class="card">
+            <h2>All Categories</h2>
+            <button class="btn btn-primary btn-sm" onclick="loadCategories()" style="margin-bottom:1rem">Refresh</button>
+            <table>
+                <thead>
+                    <tr><th>ID</th><th>Name</th><th>Actions</th></tr>
+                </thead>
+                <tbody id="categories-body"></tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- LOCATIONS PANEL -->
+    <div id="panel-locations" class="panel">
+        <div class="card">
+            <h2>Create Location</h2>
+            <div class="form-group">
+                <label>Name</label>
+                <input id="loc-name" type="text" placeholder="Location name">
+            </div>
+            <div class="form-group">
+                <label>Address</label>
+                <input id="loc-address" type="text" placeholder="Address">
+            </div>
+            <button class="btn btn-primary" onclick="createLocation()">Create</button>
+        </div>
+        <div class="card">
+            <h2>All Locations</h2>
+            <button class="btn btn-primary btn-sm" onclick="loadLocations()" style="margin-bottom:1rem">Refresh</button>
+            <table>
+                <thead>
+                    <tr><th>ID</th><th>Name</th><th>Address</th><th>Actions</th></tr>
+                </thead>
+                <tbody id="locations-body"></tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- REGISTRATIONS PANEL -->
+    <div id="panel-registrations" class="panel">
+        <div class="card">
+            <h2>Register for Event</h2>
+            <div class="two-col">
+                <div class="form-group">
+                    <label>User ID</label>
+                    <input id="reg-userid" type="number" placeholder="User ID">
+                </div>
+                <div class="form-group">
+                    <label>Event ID</label>
+                    <input id="reg-eventid" type="number" placeholder="Event ID">
+                </div>
+            </div>
+            <button class="btn btn-primary" onclick="createRegistration()">Register</button>
+        </div>
+        <div class="card">
+            <h2>Registrations by Event</h2>
+            <div class="form-group">
+                <label>Event ID</label>
+                <input id="reg-search-eventid" type="number" placeholder="Event ID">
+            </div>
+            <button class="btn btn-primary btn-sm" onclick="loadRegistrationsByEvent()">Search</button>
+            <table style="margin-top:1rem">
+                <thead>
+                    <tr><th>ID</th><th>User</th><th>Date</th><th>Confirmed</th><th>Actions</th></tr>
+                </thead>
+                <tbody id="registrations-body"></tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- COMMENTS PANEL -->
+    <div id="panel-comments" class="panel">
+        <div class="card">
+            <h2>Add Comment</h2>
+            <div class="two-col">
+                <div class="form-group">
+                    <label>User ID</label>
+                    <input id="com-userid" type="number" placeholder="User ID">
+                </div>
+                <div class="form-group">
+                    <label>Event ID</label>
+                    <input id="com-eventid" type="number" placeholder="Event ID">
+                </div>
+            </div>
+            <div class="form-group">
+                <label>Comment</label>
+                <textarea id="com-content" placeholder="Write your comment..."></textarea>
+            </div>
+            <button class="btn btn-primary" onclick="createComment()">Post Comment</button>
+        </div>
+        <div class="card">
+            <h2>Comments by Event</h2>
+            <div class="form-group">
+                <label>Event ID</label>
+                <input id="com-search-eventid" type="number" placeholder="Event ID">
+            </div>
+            <button class="btn btn-primary btn-sm" onclick="loadComments()">Search</button>
+            <table style="margin-top:1rem">
+                <thead>
+                    <tr><th>ID</th><th>User</th><th>Comment</th><th>Date</th><th>Actions</th></tr>
+                </thead>
+                <tbody id="comments-body"></tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- ADMIN PANEL -->
+    <div id="panel-admin" class="panel">
+        <div class="card">
+            <h2>All Users</h2>
+            <button class="btn btn-primary btn-sm" onclick="loadUsers()" style="margin-bottom:1rem">Refresh</button>
+            <table>
+                <thead>
+                    <tr><th>ID</th><th>Username</th><th>Email</th><th>Roles</th><th>Actions</th></tr>
+                </thead>
+                <tbody id="users-body"></tbody>
+            </table>
+        </div>
+        <div class="card">
+            <h2>Promote User to Admin</h2>
+            <div class="form-group">
+                <label>User ID</label>
+                <input id="promote-userid" type="number" placeholder="User ID">
+            </div>
+            <button class="btn btn-success" onclick="promoteUser()">Promote to Admin</button>
+        </div>
+        <div class="card">
+            <h2>Delete User</h2>
+            <div class="form-group">
+                <label>User ID</label>
+                <input id="delete-userid" type="number" placeholder="User ID">
+            </div>
+            <button class="btn btn-danger" onclick="deleteUser()">Delete User</button>
+        </div>
+    </div>
+
+</div>
+
+<script>
+    const API = 'http://localhost:5000';
+    let token = null;
+
+    // ─── HELPERS ───────────────────────────────────────────────
+
+    function headers() {
+        const h = { 'Content-Type': 'application/json' };
+        if (token) h['Authorization'] = `Bearer ${token}`;
+        return h;
+    }
+
+    function showAlert(msg, type = 'success') {
+        const el = document.getElementById('alert');
+        el.className = `alert alert-${type}`;
+        el.textContent = msg;
+        el.style.display = 'block';
+        setTimeout(() => el.style.display = 'none', 4000);
+    }
+
+    function switchTab(tab) {
+        document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+        document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
+        event.target.classList.add('active');
+        document.getElementById(`panel-${tab}`).classList.add('active');
+    }
+
+    async function api(method, path, body = null) {
+        const res = await fetch(`${API}${path}`, {
+            method,
+            headers: headers(),
+            body: body ? JSON.stringify(body) : null
+        });
+        if (!res.ok) {
+            const err = await res.json().catch(() => ({ error: res.statusText }));
+            throw new Error(err.error || res.statusText);
+        }
+        const text = await res.text();
+        return text ? JSON.parse(text) : null;
+    }
+
+    // ─── AUTH ───────────────────────────────────────────────────
+
+    async function login() {
+        try {
+            const username = document.getElementById('login-username').value;
+            const password = document.getElementById('login-password').value;
+            token = await api('POST', '/api/User/Login', { username, password });
+            document.getElementById('auth-status').textContent = `Logged in as ${username}`;
+            document.getElementById('logout-btn').style.display = 'inline-block';
+            showAlert('Logged in successfully!');
+        } catch (e) {
+            showAlert(e.message, 'error');
+        }
+    }
+
+    async function register() {
+        try {
+            const body = {
+                username: document.getElementById('reg-username').value,
+                password: document.getElementById('reg-password').value,
+                firstName: document.getElementById('reg-firstname').value,
+                lastName: document.getElementById('reg-lastname').value,
+                email: document.getElementById('reg-email').value,
+                phone: document.getElementById('reg-phone').value || null
+            };
+            await api('POST', '/api/User/Register', body);
+            showAlert('Registered successfully! You can now login.');
+        } catch (e) {
+            showAlert(e.message, 'error');
+        }
+    }
+
+    async function changePassword() {
+        try {
+            const body = {
+                username: document.getElementById('cp-username').value,
+                oldPassword: document.getElementById('cp-old').value,
+                newPassword: document.getElementById('cp-new').value
+            };
+            await api('PUT', '/api/User/ChangePassword', body);
+            showAlert('Password changed successfully!');
+        } catch (e) {
+            showAlert(e.message, 'error');
+        }
+    }
+
+    function logout() {
+        token = null;
+        document.getElementById('auth-status').textContent = 'Not logged in';
+        document.getElementById('logout-btn').style.display = 'none';
+        showAlert('Logged out successfully.');
+    }
+
+    // ─── EVENTS ─────────────────────────────────────────────────
+
+    async function loadEvents() {
+        try {
+            const events = await api('GET', '/api/Event/GetAll');
+            const tbody = document.getElementById('events-body');
+            tbody.innerHTML = events.map(e => `
+                <tr>
+                    <td>${e.id}</td>
+                    <td>${e.title}</td>
+                    <td>${new Date(e.startDateTime).toLocaleString()}</td>
+                    <td>${e.locationName || '-'}</td>
+                    <td>${e.categoryName || '-'}</td>
+                    <td>${e.maxCapacity}</td>
+                    <td>
+                        <button class="btn btn-danger btn-sm" onclick="deleteEvent(${e.id})">Delete</button>
+                    </td>
+                </tr>
+            `).join('');
+        } catch (e) {
+            showAlert(e.message, 'error');
+        }
+    }
+
+    async function createEvent() {
+        try {
+            const body = {
+                title: document.getElementById('ev-title').value,
+                description: document.getElementById('ev-description').value,
+                startDateTime: document.getElementById('ev-datetime').value,
+                maxCapacity: parseInt(document.getElementById('ev-capacity').value),
+                organizerId: parseInt(document.getElementById('ev-organizer').value),
+                locationId: parseInt(document.getElementById('ev-location').value),
+                categoryId: parseInt(document.getElementById('ev-category').value)
+            };
+            await api('POST', '/api/Event/Create', body);
+            showAlert('Event created successfully!');
+            loadEvents();
+        } catch (e) {
+            showAlert(e.message, 'error');
+        }
+    }
+
+    async function deleteEvent(id) {
+        if (!confirm('Delete this event?')) return;
+        try {
+            await api('DELETE', `/api/Event/Delete/${id}`);
+            showAlert('Event deleted.');
+            loadEvents();
+        } catch (e) {
+            showAlert(e.message, 'error');
+        }
+    }
+
+    // ─── CATEGORIES ─────────────────────────────────────────────
+
+    async function loadCategories() {
+        try {
+            const cats = await api('GET', '/api/Category/GetAll');
+            document.getElementById('categories-body').innerHTML = cats.map(c => `
+                <tr>
+                    <td>${c.id}</td>
+                    <td>${c.name}</td>
+                    <td>
+                        <button class="btn btn-danger btn-sm" onclick="deleteCategory(${c.id})">Delete</button>
+                    </td>
+                </tr>
+            `).join('');
+        } catch (e) {
+            showAlert(e.message, 'error');
+        }
+    }
+
+    async function createCategory() {
+        try {
+            await api('POST', '/api/Category/Create', { name: document.getElementById('cat-name').value });
+            showAlert('Category created!');
+            loadCategories();
+        } catch (e) {
+            showAlert(e.message, 'error');
+        }
+    }
+
+    async function deleteCategory(id) {
+        if (!confirm('Delete this category?')) return;
+        try {
+            await api('DELETE', `/api/Category/Delete/${id}`);
+            showAlert('Category deleted.');
+            loadCategories();
+        } catch (e) {
+            showAlert(e.message, 'error');
+        }
+    }
+
+    // ─── LOCATIONS ───────────────────────────────────────────────
+
+    async function loadLocations() {
+        try {
+            const locs = await api('GET', '/api/Location/GetAll');
+            document.getElementById('locations-body').innerHTML = locs.map(l => `
+                <tr>
+                    <td>${l.id}</td>
+                    <td>${l.name}</td>
+                    <td>${l.address}</td>
+                    <td>
+                        <button class="btn btn-danger btn-sm" onclick="deleteLocation(${l.id})">Delete</button>
+                    </td>
+                </tr>
+            `).join('');
+        } catch (e) {
+            showAlert(e.message, 'error');
+        }
+    }
+
+    async function createLocation() {
+        try {
+            await api('POST', '/api/Location/Create', {
+                name: document.getElementById('loc-name').value,
+                address: document.getElementById('loc-address').value
+            });
+            showAlert('Location created!');
+            loadLocations();
+        } catch (e) {
+            showAlert(e.message, 'error');
+        }
+    }
+
+    async function deleteLocation(id) {
+        if (!confirm('Delete this location?')) return;
+        try {
+            await api('DELETE', `/api/Location/Delete/${id}`);
+            showAlert('Location deleted.');
+            loadLocations();
+        } catch (e) {
+            showAlert(e.message, 'error');
+        }
+    }
+
+    // ─── REGISTRATIONS ───────────────────────────────────────────
+
+    async function createRegistration() {
+        try {
+            await api('POST', '/api/Registration/Create', {
+                userId: parseInt(document.getElementById('reg-userid').value),
+                eventId: parseInt(document.getElementById('reg-eventid').value)
+            });
+            showAlert('Registered for event successfully!');
+        } catch (e) {
+            showAlert(e.message, 'error');
+        }
+    }
+
+    async function loadRegistrationsByEvent() {
+        try {
+            const eventId = document.getElementById('reg-search-eventid').value;
+            const regs = await api('GET', `/api/Registration/GetByEvent/${eventId}`);
+            document.getElementById('registrations-body').innerHTML = regs.map(r => `
+                <tr>
+                    <td>${r.id}</td>
+                    <td>${r.username || r.userId}</td>
+                    <td>${new Date(r.registrationDate).toLocaleString()}</td>
+                    <td>
+                        <span class="badge ${r.isConfirmed ? 'badge-green' : 'badge-yellow'}">
+                            ${r.isConfirmed ? 'Confirmed' : 'Pending'}
+                        </span>
+                    </td>
+                    <td>
+                        <button class="btn btn-success btn-sm" onclick="confirmRegistration(${r.id})">Confirm</button>
+                        <button class="btn btn-danger btn-sm" onclick="deleteRegistration(${r.id})">Delete</button>
+                    </td>
+                </tr>
+            `).join('');
+        } catch (e) {
+            showAlert(e.message, 'error');
+        }
+    }
+
+    async function confirmRegistration(id) {
+        try {
+            await api('PUT', `/api/Registration/Confirm/${id}`);
+            showAlert('Registration confirmed!');
+            loadRegistrationsByEvent();
+        } catch (e) {
+            showAlert(e.message, 'error');
+        }
+    }
+
+    async function deleteRegistration(id) {
+        if (!confirm('Delete this registration?')) return;
+        try {
+            await api('DELETE', `/api/Registration/Delete/${id}`);
+            showAlert('Registration deleted.');
+            loadRegistrationsByEvent();
+        } catch (e) {
+            showAlert(e.message, 'error');
+        }
+    }
+
+    // ─── COMMENTS ────────────────────────────────────────────────
+
+    async function createComment() {
+        try {
+            await api('POST', '/api/Comment/Create', {
+                content: document.getElementById('com-content').value,
+                userId: parseInt(document.getElementById('com-userid').value),
+                eventId: parseInt(document.getElementById('com-eventid').value)
+            });
+            showAlert('Comment posted!');
+            loadComments();
+        } catch (e) {
+            showAlert(e.message, 'error');
+        }
+    }
+
+    async function loadComments() {
+        try {
+            const eventId = document.getElementById('com-search-eventid').value;
+            const comments = await api('GET', `/api/Comment/GetByEvent/${eventId}`);
+            document.getElementById('comments-body').innerHTML = comments.map(c => `
+                <tr>
+                    <td>${c.id}</td>
+                    <td>${c.username || c.userId}</td>
+                    <td>${c.content}</td>
+                    <td>${new Date(c.createdAt).toLocaleString()}</td>
+                    <td>
+                        <button class="btn btn-danger btn-sm" onclick="deleteComment(${c.id})">Delete</button>
+                    </td>
+                </tr>
+            `).join('');
+        } catch (e) {
+            showAlert(e.message, 'error');
+        }
+    }
+
+    async function deleteComment(id) {
+        if (!confirm('Delete this comment?')) return;
+        try {
+            await api('DELETE', `/api/Comment/Delete/${id}`);
+            showAlert('Comment deleted.');
+            loadComments();
+        } catch (e) {
+            showAlert(e.message, 'error');
+        }
+    }
+
+    // ─── ADMIN ───────────────────────────────────────────────────
+
+    async function loadUsers() {
+        try {
+            const users = await api('GET', '/api/User/GetAll');
+            document.getElementById('users-body').innerHTML = users.map(u => `
+                <tr>
+                    <td>${u.id}</td>
+                    <td>${u.username}</td>
+                    <td>${u.email}</td>
+                    <td>${u.roles?.join(', ') || '-'}</td>
+                    <td>
+                        <button class="btn btn-danger btn-sm" onclick="deleteUser(${u.id})">Delete</button>
+                    </td>
+                </tr>
+            `).join('');
+        } catch (e) {
+            showAlert(e.message, 'error');
+        }
+    }
+
+    async function promoteUser() {
+        try {
+            const id = document.getElementById('promote-userid').value;
+            await api('POST', `/api/User/PromoteUser/${id}`);
+            showAlert(`User ${id} promoted to Admin!`);
+            loadUsers();
+        } catch (e) {
+            showAlert(e.message, 'error');
+        }
+    }
+
+    async function deleteUser() {
+        const id = document.getElementById('delete-userid').value;
+        if (!confirm(`Delete user ${id}?`)) return;
+        try {
+            await api('DELETE', `/api/User/Delete/${id}`);
+            showAlert('User deleted.');
+            loadUsers();
+        } catch (e) {
+            showAlert(e.message, 'error');
+        }
+    }
+</script>
+</body>
+</html>
