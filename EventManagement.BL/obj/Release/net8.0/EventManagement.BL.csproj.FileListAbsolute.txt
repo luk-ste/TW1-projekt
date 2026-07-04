@@ -1,0 +1,15 @@
+C:\Users\Luka\OneDrive - Algebra\Documents\TW1\EventManagement.BL\bin\Release\net8.0\EventManagement.BL.deps.json
+C:\Users\Luka\OneDrive - Algebra\Documents\TW1\EventManagement.BL\bin\Release\net8.0\EventManagement.BL.dll
+C:\Users\Luka\OneDrive - Algebra\Documents\TW1\EventManagement.BL\bin\Release\net8.0\EventManagement.BL.pdb
+C:\Users\Luka\OneDrive - Algebra\Documents\TW1\EventManagement.BL\bin\Release\net8.0\EventManagement.DAL.dll
+C:\Users\Luka\OneDrive - Algebra\Documents\TW1\EventManagement.BL\bin\Release\net8.0\EventManagement.DAL.pdb
+C:\Users\Luka\OneDrive - Algebra\Documents\TW1\EventManagement.BL\obj\Release\net8.0\EventManagement.BL.csproj.AssemblyReference.cache
+C:\Users\Luka\OneDrive - Algebra\Documents\TW1\EventManagement.BL\obj\Release\net8.0\EventManagement.BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Luka\OneDrive - Algebra\Documents\TW1\EventManagement.BL\obj\Release\net8.0\EventManagement.BL.AssemblyInfoInputs.cache
+C:\Users\Luka\OneDrive - Algebra\Documents\TW1\EventManagement.BL\obj\Release\net8.0\EventManagement.BL.AssemblyInfo.cs
+C:\Users\Luka\OneDrive - Algebra\Documents\TW1\EventManagement.BL\obj\Release\net8.0\EventManagement.BL.csproj.CoreCompileInputs.cache
+C:\Users\Luka\OneDrive - Algebra\Documents\TW1\EventManagement.BL\obj\Release\net8.0\EventMan.6001A0AA.Up2Date
+C:\Users\Luka\OneDrive - Algebra\Documents\TW1\EventManagement.BL\obj\Release\net8.0\EventManagement.BL.dll
+C:\Users\Luka\OneDrive - Algebra\Documents\TW1\EventManagement.BL\obj\Release\net8.0\refint\EventManagement.BL.dll
+C:\Users\Luka\OneDrive - Algebra\Documents\TW1\EventManagement.BL\obj\Release\net8.0\EventManagement.BL.pdb
+C:\Users\Luka\OneDrive - Algebra\Documents\TW1\EventManagement.BL\obj\Release\net8.0\ref\EventManagement.BL.dll

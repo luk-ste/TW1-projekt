@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="EventManagement.API/EventManagement.API.csproj" />
+  <Project Path="EventManagement.BL/EventManagement.BL.csproj" Id="7f2a08f3-d37f-411f-9302-898612d2d2b8" />
+  <Project Path="EventManagement.DAL/EventManagement.DAL.csproj" Id="e26464f3-d0dd-49cc-a669-18f3c10d9403" />
+  <Project Path="EventManagement.Tests/EventManagement.Tests.csproj" Id="7801bb6e-9266-4c68-8b08-abed88eed435" />
+</Solution>

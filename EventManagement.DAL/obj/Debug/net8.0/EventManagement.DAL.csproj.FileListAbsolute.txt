@@ -1,0 +1,28 @@
+C:\TW1\EventManagement.DAL\bin\Debug\net8.0\EventManagement.DAL.deps.json
+C:\TW1\EventManagement.DAL\bin\Debug\net8.0\EventManagement.DAL.runtimeconfig.json
+C:\TW1\EventManagement.DAL\bin\Debug\net8.0\EventManagement.DAL.dll
+C:\TW1\EventManagement.DAL\bin\Debug\net8.0\EventManagement.DAL.pdb
+C:\TW1\EventManagement.DAL\obj\Debug\net8.0\EventManagement.DAL.csproj.AssemblyReference.cache
+C:\TW1\EventManagement.DAL\obj\Debug\net8.0\EventManagement.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\TW1\EventManagement.DAL\obj\Debug\net8.0\EventManagement.DAL.AssemblyInfoInputs.cache
+C:\TW1\EventManagement.DAL\obj\Debug\net8.0\EventManagement.DAL.AssemblyInfo.cs
+C:\TW1\EventManagement.DAL\obj\Debug\net8.0\EventManagement.DAL.csproj.CoreCompileInputs.cache
+C:\TW1\EventManagement.DAL\obj\Debug\net8.0\EventManagement.DAL.dll
+C:\TW1\EventManagement.DAL\obj\Debug\net8.0\refint\EventManagement.DAL.dll
+C:\TW1\EventManagement.DAL\obj\Debug\net8.0\EventManagement.DAL.pdb
+C:\TW1\EventManagement.DAL\obj\Debug\net8.0\EventManagement.DAL.genruntimeconfig.cache
+C:\TW1\EventManagement.DAL\obj\Debug\net8.0\ref\EventManagement.DAL.dll
+C:\Users\Luka\OneDrive - Algebra\Documents\TW1\EventManagement.DAL\bin\Debug\net8.0\EventManagement.DAL.deps.json
+C:\Users\Luka\OneDrive - Algebra\Documents\TW1\EventManagement.DAL\bin\Debug\net8.0\EventManagement.DAL.runtimeconfig.json
+C:\Users\Luka\OneDrive - Algebra\Documents\TW1\EventManagement.DAL\bin\Debug\net8.0\EventManagement.DAL.dll
+C:\Users\Luka\OneDrive - Algebra\Documents\TW1\EventManagement.DAL\bin\Debug\net8.0\EventManagement.DAL.pdb
+C:\Users\Luka\OneDrive - Algebra\Documents\TW1\EventManagement.DAL\obj\Debug\net8.0\EventManagement.DAL.csproj.AssemblyReference.cache
+C:\Users\Luka\OneDrive - Algebra\Documents\TW1\EventManagement.DAL\obj\Debug\net8.0\EventManagement.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Luka\OneDrive - Algebra\Documents\TW1\EventManagement.DAL\obj\Debug\net8.0\EventManagement.DAL.AssemblyInfoInputs.cache
+C:\Users\Luka\OneDrive - Algebra\Documents\TW1\EventManagement.DAL\obj\Debug\net8.0\EventManagement.DAL.AssemblyInfo.cs
+C:\Users\Luka\OneDrive - Algebra\Documents\TW1\EventManagement.DAL\obj\Debug\net8.0\EventManagement.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Luka\OneDrive - Algebra\Documents\TW1\EventManagement.DAL\obj\Debug\net8.0\EventManagement.DAL.dll
+C:\Users\Luka\OneDrive - Algebra\Documents\TW1\EventManagement.DAL\obj\Debug\net8.0\refint\EventManagement.DAL.dll
+C:\Users\Luka\OneDrive - Algebra\Documents\TW1\EventManagement.DAL\obj\Debug\net8.0\EventManagement.DAL.pdb
+C:\Users\Luka\OneDrive - Algebra\Documents\TW1\EventManagement.DAL\obj\Debug\net8.0\EventManagement.DAL.genruntimeconfig.cache
+C:\Users\Luka\OneDrive - Algebra\Documents\TW1\EventManagement.DAL\obj\Debug\net8.0\ref\EventManagement.DAL.dll
