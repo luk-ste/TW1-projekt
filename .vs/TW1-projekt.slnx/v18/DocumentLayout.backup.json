@@ -278,8 +278,7 @@
               "RelativeToolTip": "EventManagement.API\\Logs\\log-20260704.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAH8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2026-07-04T20:16:04.164Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-04T20:16:04.164Z"
             },
             {
               "$type": "Document",
@@ -291,8 +290,7 @@
               "RelativeToolTip": "EventManagement.API\\Logs\\log-20260703.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2026-07-04T20:15:39.358Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-04T20:15:39.358Z"
             },
             {
               "$type": "Document",
@@ -316,8 +314,7 @@
               "RelativeToolTip": "EventManagement.Tests\\UserServiceTests.cs",
               "ViewState": "AgIAAI4AAAAAAAAAAAAYwD0AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-04T17:28:30.518Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-04T17:28:30.518Z"
             },
             {
               "$type": "Document",
@@ -425,8 +422,7 @@
               "RelativeToolTip": "EventManagement.API\\appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-07-03T21:27:40.293Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-03T21:27:40.293Z"
             },
             {
               "$type": "Document",
@@ -474,8 +470,7 @@
               "RelativeToolTip": "EventManagement.API\\Dtos\\ResponseDtos.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAowB8AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-03T20:22:32.273Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-03T20:22:32.273Z"
             },
             {
               "$type": "Document",
@@ -487,8 +482,7 @@
               "RelativeToolTip": "EventManagement.API\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-07-03T20:13:10.634Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-03T20:13:10.634Z"
             },
             {
               "$type": "Document",
@@ -584,8 +578,7 @@
               "RelativeToolTip": "EventManagement.API\\Controllers\\LocationController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-03T16:35:13.192Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-03T16:35:13.192Z"
             },
             {
               "$type": "Document",
@@ -597,8 +590,7 @@
               "RelativeToolTip": "EventManagement.API\\Controllers\\CategoryController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-03T16:03:14.836Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-03T16:03:14.836Z"
             },
             {
               "$type": "Document",
@@ -610,8 +602,7 @@
               "RelativeToolTip": "EventManagement.API\\Controllers\\CommentController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-03T16:02:12.456Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-03T16:02:12.456Z"
             },
             {
               "$type": "Document",
@@ -623,8 +614,7 @@
               "RelativeToolTip": "EventManagement.API\\Controllers\\RegistrationController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-03T16:00:26.344Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-03T16:00:26.344Z"
             },
             {
               "$type": "Document",
@@ -648,8 +638,7 @@
               "RelativeToolTip": "EventManagement.API\\Controllers\\UserController.cs",
               "ViewState": "AgIAAGwAAAAAAAAAAAA2wH0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-03T15:41:34.267Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-03T15:41:34.267Z"
             },
             {
               "$type": "Document",
@@ -817,8 +806,7 @@
               "RelativeToolTip": "EventManagement.API\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-07-03T14:25:58.405Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-03T14:25:58.405Z"
             },
             {
               "$type": "Document",
@@ -854,8 +842,7 @@
               "RelativeToolTip": "EventManagement.API\\Controllers\\EventController.cs",
               "ViewState": "AgIAAHEAAAAAAAAAAAAuwAAAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-03T14:25:26.065Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-03T14:25:26.065Z"
             },
             {
               "$type": "Document",

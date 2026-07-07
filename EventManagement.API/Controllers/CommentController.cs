@@ -45,7 +45,7 @@ namespace EventManagement.API.Controllers
         public async Task<ActionResult<CommentResponseDto>> CreateAsync([FromBody] CreateCommentDto dto)
         {
             var comment = await _service.CreateAsync(dto.UserId, dto.EventId, dto.Content);
-            return Ok(ToDto(comment));
+            return CreatedAtAction(nameof(GetByEventAsync), new { eventId = comment.EventId }, ToDto(comment));
         }
 
         // DELETE: api/Comment/Delete/{id} — Admin only
