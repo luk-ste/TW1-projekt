@@ -59,9 +59,9 @@ namespace EventManagement.Tests
             
             var result = await _controller.CreateAsync(dto);
 
-            
-            var okResult = Assert.IsType<OkObjectResult>(result.Result);
-            var returnedComment = Assert.IsType<CommentResponseDto>(okResult.Value);
+
+            var createdResult = Assert.IsType<CreatedAtActionResult>(result.Result);
+            var returnedComment = Assert.IsType<CommentResponseDto>(createdResult.Value);
             Assert.Equal("Test comment", returnedComment.Content);
         }
 

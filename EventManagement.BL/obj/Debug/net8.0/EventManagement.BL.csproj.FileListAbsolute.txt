@@ -13,3 +13,4 @@ C:\Users\Luka\OneDrive - Algebra\Documents\TW1\EventManagement.BL\obj\Debug\net8
 C:\Users\Luka\OneDrive - Algebra\Documents\TW1\EventManagement.BL\obj\Debug\net8.0\refint\EventManagement.BL.dll
 C:\Users\Luka\OneDrive - Algebra\Documents\TW1\EventManagement.BL\obj\Debug\net8.0\EventManagement.BL.pdb
 C:\Users\Luka\OneDrive - Algebra\Documents\TW1\EventManagement.BL\obj\Debug\net8.0\ref\EventManagement.BL.dll
+C:\Users\Luka\OneDrive - Algebra\Documents\TW1\EventManagement.BL\obj\Debug\net8.0\EventManagement.BL.sourcelink.json

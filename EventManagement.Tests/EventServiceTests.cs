@@ -121,13 +121,19 @@ namespace EventManagement.Tests
         [Fact]
         public async Task DeleteAsync_CallsRepository()
         {
+
+            _mockRepo.Setup(r => r.GetByIdWithDetailsAsync(1))
+              .ReturnsAsync(new Event { Id = 1 });
+
+            _mockRepo.Setup(r => r.DeleteAsync(1))
+                     .Returns(Task.CompletedTask);
+
+            var service = new EventService(_mockRepo.Object);
+
             
-            _mockRepo.Setup(r => r.DeleteAsync(1)).Returns(Task.CompletedTask);
+            await service.DeleteAsync(1); // ← Using literal directly
 
            
-            await _service.DeleteAsync(1);
-
-            
             _mockRepo.Verify(r => r.DeleteAsync(1), Times.Once);
         }
     }

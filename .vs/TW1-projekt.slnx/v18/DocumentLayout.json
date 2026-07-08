@@ -3,8 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7801BB6E-9266-4C68-8B08-ABED88EED435}|EventManagement.Tests\\EventManagement.Tests.csproj|c:\\users\\luka\\onedrive - algebra\\documents\\tw1\\eventmanagement.tests\\eventservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7801BB6E-9266-4C68-8B08-ABED88EED435}|EventManagement.Tests\\EventManagement.Tests.csproj|solutionrelative:eventmanagement.tests\\eventservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7F2A08F3-D37F-411F-9302-898612D2D2B8}|EventManagement.BL\\EventManagement.BL.csproj|c:\\users\\luka\\onedrive - algebra\\documents\\tw1\\eventmanagement.bl\\services\\eventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F2A08F3-D37F-411F-9302-898612D2D2B8}|EventManagement.BL\\EventManagement.BL.csproj|solutionrelative:eventmanagement.bl\\services\\eventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7801BB6E-9266-4C68-8B08-ABED88EED435}|EventManagement.Tests\\EventManagement.Tests.csproj|c:\\users\\luka\\onedrive - algebra\\documents\\tw1\\eventmanagement.tests\\commentcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7801BB6E-9266-4C68-8B08-ABED88EED435}|EventManagement.Tests\\EventManagement.Tests.csproj|solutionrelative:eventmanagement.tests\\commentcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7801BB6E-9266-4C68-8B08-ABED88EED435}|EventManagement.Tests\\EventManagement.Tests.csproj|c:\\users\\luka\\onedrive - algebra\\documents\\tw1\\eventmanagement.tests\\eventmanagement.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7801BB6E-9266-4C68-8B08-ABED88EED435}|EventManagement.Tests\\EventManagement.Tests.csproj|solutionrelative:eventmanagement.tests\\eventmanagement.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7801BB6E-9266-4C68-8B08-ABED88EED435}|EventManagement.Tests\\EventManagement.Tests.csproj|c:\\users\\luka\\onedrive - algebra\\documents\\tw1\\eventmanagement.tests\\commentservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7801BB6E-9266-4C68-8B08-ABED88EED435}|EventManagement.Tests\\EventManagement.Tests.csproj|solutionrelative:eventmanagement.tests\\commentservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F2A08F3-D37F-411F-9302-898612D2D2B8}|EventManagement.BL\\EventManagement.BL.csproj|c:\\users\\luka\\onedrive - algebra\\documents\\tw1\\eventmanagement.bl\\services\\commentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F2A08F3-D37F-411F-9302-898612D2D2B8}|EventManagement.BL\\EventManagement.BL.csproj|solutionrelative:eventmanagement.bl\\services\\commentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25B5F621-C0C1-C5DD-6C85-266EE8F74FDF}|EventManagement.API\\EventManagement.API.csproj|c:\\users\\luka\\onedrive - algebra\\documents\\tw1\\eventmanagement.api\\middleware\\loggingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25B5F621-C0C1-C5DD-6C85-266EE8F74FDF}|EventManagement.API\\EventManagement.API.csproj|solutionrelative:eventmanagement.api\\middleware\\loggingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25B5F621-C0C1-C5DD-6C85-266EE8F74FDF}|EventManagement.API\\EventManagement.API.csproj|c:\\users\\luka\\onedrive - algebra\\documents\\tw1\\eventmanagement.api\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25B5F621-C0C1-C5DD-6C85-266EE8F74FDF}|EventManagement.API\\EventManagement.API.csproj|solutionrelative:eventmanagement.api\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F2A08F3-D37F-411F-9302-898612D2D2B8}|EventManagement.BL\\EventManagement.BL.csproj|c:\\users\\luka\\onedrive - algebra\\documents\\tw1\\eventmanagement.bl\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F2A08F3-D37F-411F-9302-898612D2D2B8}|EventManagement.BL\\EventManagement.BL.csproj|solutionrelative:eventmanagement.bl\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F2A08F3-D37F-411F-9302-898612D2D2B8}|EventManagement.BL\\EventManagement.BL.csproj|c:\\users\\luka\\onedrive - algebra\\documents\\tw1\\eventmanagement.bl\\interfaces\\icommentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F2A08F3-D37F-411F-9302-898612D2D2B8}|EventManagement.BL\\EventManagement.BL.csproj|solutionrelative:eventmanagement.bl\\interfaces\\icommentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F2A08F3-D37F-411F-9302-898612D2D2B8}|EventManagement.BL\\EventManagement.BL.csproj|c:\\users\\luka\\onedrive - algebra\\documents\\tw1\\eventmanagement.bl\\services\\locationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F2A08F3-D37F-411F-9302-898612D2D2B8}|EventManagement.BL\\EventManagement.BL.csproj|solutionrelative:eventmanagement.bl\\services\\locationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7F2A08F3-D37F-411F-9302-898612D2D2B8}|EventManagement.BL\\EventManagement.BL.csproj|c:\\users\\luka\\onedrive - algebra\\documents\\tw1\\eventmanagement.bl\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -13,10 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{7F2A08F3-D37F-411F-9302-898612D2D2B8}|EventManagement.BL\\EventManagement.BL.csproj|c:\\users\\luka\\onedrive - algebra\\documents\\tw1\\eventmanagement.bl\\services\\registrationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F2A08F3-D37F-411F-9302-898612D2D2B8}|EventManagement.BL\\EventManagement.BL.csproj|solutionrelative:eventmanagement.bl\\services\\registrationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F2A08F3-D37F-411F-9302-898612D2D2B8}|EventManagement.BL\\EventManagement.BL.csproj|c:\\users\\luka\\onedrive - algebra\\documents\\tw1\\eventmanagement.bl\\services\\locationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F2A08F3-D37F-411F-9302-898612D2D2B8}|EventManagement.BL\\EventManagement.BL.csproj|solutionrelative:eventmanagement.bl\\services\\locationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{25B5F621-C0C1-C5DD-6C85-266EE8F74FDF}|EventManagement.API\\EventManagement.API.csproj|c:\\users\\luka\\onedrive - algebra\\documents\\tw1\\eventmanagement.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -37,14 +73,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{25B5F621-C0C1-C5DD-6C85-266EE8F74FDF}|EventManagement.API\\EventManagement.API.csproj|c:\\users\\luka\\onedrive - algebra\\documents\\tw1\\eventmanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{25B5F621-C0C1-C5DD-6C85-266EE8F74FDF}|EventManagement.API\\EventManagement.API.csproj|solutionrelative:eventmanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25B5F621-C0C1-C5DD-6C85-266EE8F74FDF}|EventManagement.API\\EventManagement.API.csproj|c:\\users\\luka\\onedrive - algebra\\documents\\tw1\\eventmanagement.api\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25B5F621-C0C1-C5DD-6C85-266EE8F74FDF}|EventManagement.API\\EventManagement.API.csproj|solutionrelative:eventmanagement.api\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25B5F621-C0C1-C5DD-6C85-266EE8F74FDF}|EventManagement.API\\EventManagement.API.csproj|c:\\users\\luka\\onedrive - algebra\\documents\\tw1\\eventmanagement.api\\middleware\\loggingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25B5F621-C0C1-C5DD-6C85-266EE8F74FDF}|EventManagement.API\\EventManagement.API.csproj|solutionrelative:eventmanagement.api\\middleware\\loggingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7F2A08F3-D37F-411F-9302-898612D2D2B8}|EventManagement.BL\\EventManagement.BL.csproj|c:\\users\\luka\\onedrive - algebra\\documents\\tw1\\eventmanagement.bl\\security\\jwttokenprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -107,20 +135,8 @@
       "RelativeMoniker": "D:0:0:{7801BB6E-9266-4C68-8B08-ABED88EED435}|EventManagement.Tests\\EventManagement.Tests.csproj|solutionrelative:eventmanagement.tests\\registrationcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7801BB6E-9266-4C68-8B08-ABED88EED435}|EventManagement.Tests\\EventManagement.Tests.csproj|c:\\users\\luka\\onedrive - algebra\\documents\\tw1\\eventmanagement.tests\\eventservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7801BB6E-9266-4C68-8B08-ABED88EED435}|EventManagement.Tests\\EventManagement.Tests.csproj|solutionrelative:eventmanagement.tests\\eventservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7801BB6E-9266-4C68-8B08-ABED88EED435}|EventManagement.Tests\\EventManagement.Tests.csproj|c:\\users\\luka\\onedrive - algebra\\documents\\tw1\\eventmanagement.tests\\eventcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7801BB6E-9266-4C68-8B08-ABED88EED435}|EventManagement.Tests\\EventManagement.Tests.csproj|solutionrelative:eventmanagement.tests\\eventcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7801BB6E-9266-4C68-8B08-ABED88EED435}|EventManagement.Tests\\EventManagement.Tests.csproj|c:\\users\\luka\\onedrive - algebra\\documents\\tw1\\eventmanagement.tests\\commentservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7801BB6E-9266-4C68-8B08-ABED88EED435}|EventManagement.Tests\\EventManagement.Tests.csproj|solutionrelative:eventmanagement.tests\\commentservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7801BB6E-9266-4C68-8B08-ABED88EED435}|EventManagement.Tests\\EventManagement.Tests.csproj|c:\\users\\luka\\onedrive - algebra\\documents\\tw1\\eventmanagement.tests\\commentcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7801BB6E-9266-4C68-8B08-ABED88EED435}|EventManagement.Tests\\EventManagement.Tests.csproj|solutionrelative:eventmanagement.tests\\commentcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7801BB6E-9266-4C68-8B08-ABED88EED435}|EventManagement.Tests\\EventManagement.Tests.csproj|c:\\users\\luka\\onedrive - algebra\\documents\\tw1\\eventmanagement.tests\\categoryandlocationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -133,14 +149,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{25B5F621-C0C1-C5DD-6C85-266EE8F74FDF}|EventManagement.API\\EventManagement.API.csproj|c:\\users\\luka\\onedrive - algebra\\documents\\tw1\\eventmanagement.api\\dtos\\responsedtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{25B5F621-C0C1-C5DD-6C85-266EE8F74FDF}|EventManagement.API\\EventManagement.API.csproj|solutionrelative:eventmanagement.api\\dtos\\responsedtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F2A08F3-D37F-411F-9302-898612D2D2B8}|EventManagement.BL\\EventManagement.BL.csproj|c:\\users\\luka\\onedrive - algebra\\documents\\tw1\\eventmanagement.bl\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F2A08F3-D37F-411F-9302-898612D2D2B8}|EventManagement.BL\\EventManagement.BL.csproj|solutionrelative:eventmanagement.bl\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F2A08F3-D37F-411F-9302-898612D2D2B8}|EventManagement.BL\\EventManagement.BL.csproj|c:\\users\\luka\\onedrive - algebra\\documents\\tw1\\eventmanagement.bl\\services\\commentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F2A08F3-D37F-411F-9302-898612D2D2B8}|EventManagement.BL\\EventManagement.BL.csproj|solutionrelative:eventmanagement.bl\\services\\commentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E26464F3-D0DD-49CC-A669-18F3C10D9403}|EventManagement.DAL\\EventManagement.DAL.csproj|c:\\users\\luka\\onedrive - algebra\\documents\\tw1\\eventmanagement.dal\\migrations\\20260703210432_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -215,10 +223,6 @@
       "RelativeMoniker": "D:0:0:{7F2A08F3-D37F-411F-9302-898612D2D2B8}|EventManagement.BL\\EventManagement.BL.csproj|solutionrelative:eventmanagement.bl\\interfaces\\ilocationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F2A08F3-D37F-411F-9302-898612D2D2B8}|EventManagement.BL\\EventManagement.BL.csproj|c:\\users\\luka\\onedrive - algebra\\documents\\tw1\\eventmanagement.bl\\interfaces\\icommentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F2A08F3-D37F-411F-9302-898612D2D2B8}|EventManagement.BL\\EventManagement.BL.csproj|solutionrelative:eventmanagement.bl\\interfaces\\icommentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7F2A08F3-D37F-411F-9302-898612D2D2B8}|EventManagement.BL\\EventManagement.BL.csproj|c:\\users\\luka\\onedrive - algebra\\documents\\tw1\\eventmanagement.bl\\eventmanagement.bl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{7F2A08F3-D37F-411F-9302-898612D2D2B8}|EventManagement.BL\\EventManagement.BL.csproj|solutionrelative:eventmanagement.bl\\eventmanagement.bl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
@@ -258,141 +262,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.API\\Program.cs",
-              "RelativeDocumentMoniker": "EventManagement.API\\Program.cs",
-              "ToolTip": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.API\\Program.cs",
-              "RelativeToolTip": "EventManagement.API\\Program.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAAHgAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "CommentService.cs",
+              "DocumentMoniker": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.BL\\Services\\CommentService.cs",
+              "RelativeDocumentMoniker": "EventManagement.BL\\Services\\CommentService.cs",
+              "ToolTip": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.BL\\Services\\CommentService.cs",
+              "RelativeToolTip": "EventManagement.BL\\Services\\CommentService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAjwC8AAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-03T14:25:25.246Z",
+              "WhenOpened": "2026-07-03T15:21:30.98Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Comment.cs",
-              "DocumentMoniker": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.DAL\\Models\\Comment.cs",
-              "RelativeDocumentMoniker": "EventManagement.DAL\\Models\\Comment.cs",
-              "ToolTip": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.DAL\\Models\\Comment.cs",
-              "RelativeToolTip": "EventManagement.DAL\\Models\\Comment.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.BL\\Services\\CategoryService.cs",
+              "RelativeDocumentMoniker": "EventManagement.BL\\Services\\CategoryService.cs",
+              "ToolTip": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.BL\\Services\\CategoryService.cs",
+              "RelativeToolTip": "EventManagement.BL\\Services\\CategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-06T19:38:23.39Z",
+              "WhenOpened": "2026-07-03T15:26:10.138Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "PasswordHashProvider.cs",
-              "DocumentMoniker": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.BL\\Security\\PasswordHashProvider.cs",
-              "RelativeDocumentMoniker": "EventManagement.BL\\Security\\PasswordHashProvider.cs",
-              "ToolTip": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.BL\\Security\\PasswordHashProvider.cs",
-              "RelativeToolTip": "EventManagement.BL\\Security\\PasswordHashProvider.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-03T19:54:53.344Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.BL\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "EventManagement.BL\\Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.BL\\Services\\UserService.cs",
-              "RelativeToolTip": "EventManagement.BL\\Services\\UserService.cs",
-              "ViewState": "AgIAAGYAAAAAAAAAAADwv3IAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-03T14:56:03.411Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RegistrationService.cs",
-              "DocumentMoniker": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.BL\\Services\\RegistrationService.cs",
-              "RelativeDocumentMoniker": "EventManagement.BL\\Services\\RegistrationService.cs",
-              "ToolTip": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.BL\\Services\\RegistrationService.cs",
-              "RelativeToolTip": "EventManagement.BL\\Services\\RegistrationService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-03T15:13:41.85Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.BL\\Interfaces\\IUserService.cs",
-              "RelativeDocumentMoniker": "EventManagement.BL\\Interfaces\\IUserService.cs",
-              "ToolTip": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.BL\\Interfaces\\IUserService.cs",
-              "RelativeToolTip": "EventManagement.BL\\Interfaces\\IUserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-03T14:40:06.885Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.API\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "EventManagement.API\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.API\\Controllers\\UserController.cs",
-              "RelativeToolTip": "EventManagement.API\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAG4AAAAAAAAAAAAswH0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-03T15:41:34.267Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LocationService.cs",
-              "DocumentMoniker": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.BL\\Services\\LocationService.cs",
-              "RelativeDocumentMoniker": "EventManagement.BL\\Services\\LocationService.cs",
-              "ToolTip": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.BL\\Services\\LocationService.cs",
-              "RelativeToolTip": "EventManagement.BL\\Services\\LocationService.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAIwCYAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-03T15:27:24.778Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EventService.cs",
-              "DocumentMoniker": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.BL\\Services\\EventService.cs",
-              "RelativeDocumentMoniker": "EventManagement.BL\\Services\\EventService.cs",
-              "ToolTip": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.BL\\Services\\EventService.cs",
-              "RelativeToolTip": "EventManagement.BL\\Services\\EventService.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAwwDoAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-03T15:03:15.419Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ExceptionMiddleware.cs",
-              "DocumentMoniker": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.API\\Middleware\\ExceptionMiddleware.cs",
-              "RelativeDocumentMoniker": "EventManagement.API\\Middleware\\ExceptionMiddleware.cs",
-              "ToolTip": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.API\\Middleware\\ExceptionMiddleware.cs",
-              "RelativeToolTip": "EventManagement.API\\Middleware\\ExceptionMiddleware.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAowDMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-03T20:11:50.666Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "LoggingMiddleware.cs",
               "DocumentMoniker": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.API\\Middleware\\LoggingMiddleware.cs",
               "RelativeDocumentMoniker": "EventManagement.API\\Middleware\\LoggingMiddleware.cs",
@@ -405,7 +305,195 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ExceptionMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.API\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "EventManagement.API\\Middleware\\ExceptionMiddleware.cs",
+              "ToolTip": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.API\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeToolTip": "EventManagement.API\\Middleware\\ExceptionMiddleware.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowDMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T20:11:50.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EventServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.Tests\\EventServiceTests.cs",
+              "RelativeDocumentMoniker": "EventManagement.Tests\\EventServiceTests.cs",
+              "ToolTip": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.Tests\\EventServiceTests.cs",
+              "RelativeToolTip": "EventManagement.Tests\\EventServiceTests.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAQwHkAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-04T17:25:06.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CommentControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.Tests\\CommentControllerTests.cs",
+              "RelativeDocumentMoniker": "EventManagement.Tests\\CommentControllerTests.cs",
+              "ToolTip": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.Tests\\CommentControllerTests.cs",
+              "RelativeToolTip": "EventManagement.Tests\\CommentControllerTests.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAAD8AAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-04T17:11:59.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EventService.cs",
+              "DocumentMoniker": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.BL\\Services\\EventService.cs",
+              "RelativeDocumentMoniker": "EventManagement.BL\\Services\\EventService.cs",
+              "ToolTip": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.BL\\Services\\EventService.cs",
+              "RelativeToolTip": "EventManagement.BL\\Services\\EventService.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAIwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T15:03:15.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EventManagement.Tests",
+              "DocumentMoniker": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.Tests\\EventManagement.Tests.csproj",
+              "RelativeDocumentMoniker": "EventManagement.Tests\\EventManagement.Tests.csproj",
+              "ToolTip": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.Tests\\EventManagement.Tests.csproj",
+              "RelativeToolTip": "EventManagement.Tests\\EventManagement.Tests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-07-08T14:26:11.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CommentServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.Tests\\CommentServiceTests.cs",
+              "RelativeDocumentMoniker": "EventManagement.Tests\\CommentServiceTests.cs",
+              "ToolTip": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.Tests\\CommentServiceTests.cs",
+              "RelativeToolTip": "EventManagement.Tests\\CommentServiceTests.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-04T17:27:29.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ICommentService.cs",
+              "DocumentMoniker": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.BL\\Interfaces\\ICommentService.cs",
+              "RelativeDocumentMoniker": "EventManagement.BL\\Interfaces\\ICommentService.cs",
+              "ToolTip": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.BL\\Interfaces\\ICommentService.cs",
+              "RelativeToolTip": "EventManagement.BL\\Interfaces\\ICommentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T14:47:14.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LocationService.cs",
+              "DocumentMoniker": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.BL\\Services\\LocationService.cs",
+              "RelativeDocumentMoniker": "EventManagement.BL\\Services\\LocationService.cs",
+              "ToolTip": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.BL\\Services\\LocationService.cs",
+              "RelativeToolTip": "EventManagement.BL\\Services\\LocationService.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAgwCYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T15:27:24.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.API\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "EventManagement.API\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.API\\Controllers\\UserController.cs",
+              "RelativeToolTip": "EventManagement.API\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAswH0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T15:41:34.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.BL\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "EventManagement.BL\\Interfaces\\IUserService.cs",
+              "ToolTip": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.BL\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "EventManagement.BL\\Interfaces\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T14:40:06.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RegistrationService.cs",
+              "DocumentMoniker": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.BL\\Services\\RegistrationService.cs",
+              "RelativeDocumentMoniker": "EventManagement.BL\\Services\\RegistrationService.cs",
+              "ToolTip": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.BL\\Services\\RegistrationService.cs",
+              "RelativeToolTip": "EventManagement.BL\\Services\\RegistrationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T15:13:41.85Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 11,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.BL\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "EventManagement.BL\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.BL\\Services\\UserService.cs",
+              "RelativeToolTip": "EventManagement.BL\\Services\\UserService.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAADwv3IAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T14:56:03.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PasswordHashProvider.cs",
+              "DocumentMoniker": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.BL\\Security\\PasswordHashProvider.cs",
+              "RelativeDocumentMoniker": "EventManagement.BL\\Security\\PasswordHashProvider.cs",
+              "ToolTip": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.BL\\Security\\PasswordHashProvider.cs",
+              "RelativeToolTip": "EventManagement.BL\\Security\\PasswordHashProvider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T19:54:53.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Comment.cs",
+              "DocumentMoniker": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.DAL\\Models\\Comment.cs",
+              "RelativeDocumentMoniker": "EventManagement.DAL\\Models\\Comment.cs",
+              "ToolTip": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.DAL\\Models\\Comment.cs",
+              "RelativeToolTip": "EventManagement.DAL\\Models\\Comment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-06T19:38:23.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.API\\Program.cs",
+              "RelativeDocumentMoniker": "EventManagement.API\\Program.cs",
+              "ToolTip": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.API\\Program.cs",
+              "RelativeToolTip": "EventManagement.API\\Program.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAHgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T14:25:25.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "JwtTokenProvider.cs",
               "DocumentMoniker": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.BL\\Security\\JwtTokenProvider.cs",
               "RelativeDocumentMoniker": "EventManagement.BL\\Security\\JwtTokenProvider.cs",
@@ -413,12 +501,11 @@
               "RelativeToolTip": "EventManagement.BL\\Security\\JwtTokenProvider.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAuwA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-03T19:54:56.227Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-03T19:54:56.227Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 24,
               "Title": "ICategoryService.cs",
               "DocumentMoniker": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.BL\\Interfaces\\ICategoryService.cs",
               "RelativeDocumentMoniker": "EventManagement.BL\\Interfaces\\ICategoryService.cs",
@@ -430,7 +517,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 23,
               "Title": "IEventService.cs",
               "DocumentMoniker": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.BL\\Interfaces\\IEventService.cs",
               "RelativeDocumentMoniker": "EventManagement.BL\\Interfaces\\IEventService.cs",
@@ -442,7 +529,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 19,
               "Title": "CommentController.cs",
               "DocumentMoniker": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.API\\Controllers\\CommentController.cs",
               "RelativeDocumentMoniker": "EventManagement.API\\Controllers\\CommentController.cs",
@@ -454,7 +541,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 22,
               "Title": "LocationController.cs",
               "DocumentMoniker": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.API\\Controllers\\LocationController.cs",
               "RelativeDocumentMoniker": "EventManagement.API\\Controllers\\LocationController.cs",
@@ -466,7 +553,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 20,
               "Title": "CategoryController.cs",
               "DocumentMoniker": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.API\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "EventManagement.API\\Controllers\\CategoryController.cs",
@@ -478,7 +565,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 21,
               "Title": "RegistrationController.cs",
               "DocumentMoniker": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.API\\Controllers\\RegistrationController.cs",
               "RelativeDocumentMoniker": "EventManagement.API\\Controllers\\RegistrationController.cs",
@@ -490,7 +577,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 29,
               "Title": "UserServiceTests.cs",
               "DocumentMoniker": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.Tests\\UserServiceTests.cs",
               "RelativeDocumentMoniker": "EventManagement.Tests\\UserServiceTests.cs",
@@ -502,7 +589,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 35,
               "Title": "CategoryAndLocationServiceTests.cs",
               "DocumentMoniker": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.Tests\\CategoryAndLocationServiceTests.cs",
               "RelativeDocumentMoniker": "EventManagement.Tests\\CategoryAndLocationServiceTests.cs",
@@ -514,19 +601,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "CommentServiceTests.cs",
-              "DocumentMoniker": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.Tests\\CommentServiceTests.cs",
-              "RelativeDocumentMoniker": "EventManagement.Tests\\CommentServiceTests.cs",
-              "ToolTip": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.Tests\\CommentServiceTests.cs",
-              "RelativeToolTip": "EventManagement.Tests\\CommentServiceTests.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAjwBUAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-04T17:27:29.818Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 31,
               "Title": "RegistrationServiceTests.cs",
               "DocumentMoniker": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.Tests\\RegistrationServiceTests.cs",
               "RelativeDocumentMoniker": "EventManagement.Tests\\RegistrationServiceTests.cs",
@@ -538,19 +613,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "EventServiceTests.cs",
-              "DocumentMoniker": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.Tests\\EventServiceTests.cs",
-              "RelativeDocumentMoniker": "EventManagement.Tests\\EventServiceTests.cs",
-              "ToolTip": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.Tests\\EventServiceTests.cs",
-              "RelativeToolTip": "EventManagement.Tests\\EventServiceTests.cs",
-              "ViewState": "AgIAAHQAAAAAAAAAAAAuwD8AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-04T17:25:06.977Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 34,
               "Title": "CategoryAndLocationTests.cs",
               "DocumentMoniker": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.Tests\\CategoryAndLocationTests.cs",
               "RelativeDocumentMoniker": "EventManagement.Tests\\CategoryAndLocationTests.cs",
@@ -562,19 +625,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "CommentControllerTests.cs",
-              "DocumentMoniker": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.Tests\\CommentControllerTests.cs",
-              "RelativeDocumentMoniker": "EventManagement.Tests\\CommentControllerTests.cs",
-              "ToolTip": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.Tests\\CommentControllerTests.cs",
-              "RelativeToolTip": "EventManagement.Tests\\CommentControllerTests.cs",
-              "ViewState": "AgIAAFAAAAAAAAAAAAAIwBUAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-04T17:11:59.898Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 32,
               "Title": "RegistrationControllerTests.cs",
               "DocumentMoniker": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.Tests\\RegistrationControllerTests.cs",
               "RelativeDocumentMoniker": "EventManagement.Tests\\RegistrationControllerTests.cs",
@@ -586,7 +637,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 30,
               "Title": "UserControllerTests.cs",
               "DocumentMoniker": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.Tests\\UserControllerTests.cs",
               "RelativeDocumentMoniker": "EventManagement.Tests\\UserControllerTests.cs",
@@ -598,7 +649,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 33,
               "Title": "EventControllerTests.cs",
               "DocumentMoniker": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.Tests\\EventControllerTests.cs",
               "RelativeDocumentMoniker": "EventManagement.Tests\\EventControllerTests.cs",
@@ -610,7 +661,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 26,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.API\\appsettings.Development.json",
               "RelativeDocumentMoniker": "EventManagement.API\\appsettings.Development.json",
@@ -622,7 +673,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 40,
               "Title": "EventManagementDbContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.DAL\\Migrations\\EventManagementDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "EventManagement.DAL\\Migrations\\EventManagementDbContextModelSnapshot.cs",
@@ -634,7 +685,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 37,
               "Title": "20260703210432_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.DAL\\Migrations\\20260703210432_InitialCreate.cs",
               "RelativeDocumentMoniker": "EventManagement.DAL\\Migrations\\20260703210432_InitialCreate.cs",
@@ -646,7 +697,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 41,
               "Title": "20260703210100_FixCascadeDelete.cs",
               "DocumentMoniker": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.DAL\\Migrations\\20260703210100_FixCascadeDelete.cs",
               "RelativeDocumentMoniker": "EventManagement.DAL\\Migrations\\20260703210100_FixCascadeDelete.cs",
@@ -658,7 +709,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 36,
               "Title": "ResponseDtos.cs",
               "DocumentMoniker": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.API\\Dtos\\ResponseDtos.cs",
               "RelativeDocumentMoniker": "EventManagement.API\\Dtos\\ResponseDtos.cs",
@@ -670,7 +721,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 28,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.API\\appsettings.json",
               "RelativeDocumentMoniker": "EventManagement.API\\appsettings.json",
@@ -682,7 +733,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 50,
               "Title": "UnathorizedException.cs",
               "DocumentMoniker": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.BL\\Exceptions\\UnathorizedException.cs",
               "RelativeDocumentMoniker": "EventManagement.BL\\Exceptions\\UnathorizedException.cs",
@@ -694,7 +745,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 51,
               "Title": "BadRequestException.cs",
               "DocumentMoniker": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.BL\\Exceptions\\BadRequestException.cs",
               "RelativeDocumentMoniker": "EventManagement.BL\\Exceptions\\BadRequestException.cs",
@@ -706,7 +757,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 52,
               "Title": "NotFoundException.cs",
               "DocumentMoniker": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.BL\\Exceptions\\NotFoundException.cs",
               "RelativeDocumentMoniker": "EventManagement.BL\\Exceptions\\NotFoundException.cs",
@@ -718,7 +769,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 25,
               "Title": "EventManagement.API.http",
               "DocumentMoniker": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.API\\EventManagement.API.http",
               "RelativeDocumentMoniker": "EventManagement.API\\EventManagement.API.http",
@@ -730,31 +781,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "CategoryService.cs",
-              "DocumentMoniker": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.BL\\Services\\CategoryService.cs",
-              "RelativeDocumentMoniker": "EventManagement.BL\\Services\\CategoryService.cs",
-              "ToolTip": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.BL\\Services\\CategoryService.cs",
-              "RelativeToolTip": "EventManagement.BL\\Services\\CategoryService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAABQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-03T15:26:10.138Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "CommentService.cs",
-              "DocumentMoniker": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.BL\\Services\\CommentService.cs",
-              "RelativeDocumentMoniker": "EventManagement.BL\\Services\\CommentService.cs",
-              "ToolTip": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.BL\\Services\\CommentService.cs",
-              "RelativeToolTip": "EventManagement.BL\\Services\\CommentService.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAgwB8AAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-03T15:21:30.98Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 55,
               "Title": "EventManagement.BL.csproj",
               "DocumentMoniker": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.BL\\EventManagement.BL.csproj",
               "RelativeDocumentMoniker": "EventManagement.BL\\EventManagement.BL.csproj",
@@ -762,11 +789,12 @@
               "RelativeToolTip": "EventManagement.BL\\EventManagement.BL.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-07-03T14:53:57.434Z"
+              "WhenOpened": "2026-07-03T14:53:57.434Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 54,
               "Title": "ILocationService.cs",
               "DocumentMoniker": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.BL\\Interfaces\\ILocationService.cs",
               "RelativeDocumentMoniker": "EventManagement.BL\\Interfaces\\ILocationService.cs",
@@ -779,18 +807,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 53,
-              "Title": "ICommentService.cs",
-              "DocumentMoniker": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.BL\\Interfaces\\ICommentService.cs",
-              "RelativeDocumentMoniker": "EventManagement.BL\\Interfaces\\ICommentService.cs",
-              "ToolTip": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.BL\\Interfaces\\ICommentService.cs",
-              "RelativeToolTip": "EventManagement.BL\\Interfaces\\ICommentService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-03T14:47:14.907Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 51,
               "Title": "IRegistrationService.cs",
               "DocumentMoniker": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.BL\\Interfaces\\IRegistrationService.cs",
               "RelativeDocumentMoniker": "EventManagement.BL\\Interfaces\\IRegistrationService.cs",
@@ -802,7 +818,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 27,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.API\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "EventManagement.API\\Properties\\launchSettings.json",
@@ -814,7 +830,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 58,
               "Title": "RegistrationRepository.cs",
               "DocumentMoniker": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.DAL\\Repositories\\RegistrationRepository.cs",
               "RelativeDocumentMoniker": "EventManagement.DAL\\Repositories\\RegistrationRepository.cs",
@@ -826,7 +842,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 59,
               "Title": "IRegistrationRepository.cs",
               "DocumentMoniker": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.DAL\\Repositories\\IRegistrationRepository.cs",
               "RelativeDocumentMoniker": "EventManagement.DAL\\Repositories\\IRegistrationRepository.cs",
@@ -838,7 +854,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 43,
               "Title": "EventController.cs",
               "DocumentMoniker": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.API\\Controllers\\EventController.cs",
               "RelativeDocumentMoniker": "EventManagement.API\\Controllers\\EventController.cs",
@@ -850,7 +866,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 38,
               "Title": "EventManagement.API.csproj",
               "DocumentMoniker": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.API\\EventManagement.API.csproj",
               "RelativeDocumentMoniker": "EventManagement.API\\EventManagement.API.csproj",
@@ -858,11 +874,12 @@
               "RelativeToolTip": "EventManagement.API\\EventManagement.API.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-07-03T14:25:24.521Z"
+              "WhenOpened": "2026-07-03T14:25:24.521Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 61,
               "Title": "EventRepository.cs",
               "DocumentMoniker": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.DAL\\Repositories\\EventRepository.cs",
               "RelativeDocumentMoniker": "EventManagement.DAL\\Repositories\\EventRepository.cs",
@@ -874,7 +891,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 62,
               "Title": "ICommentRepository.cs",
               "DocumentMoniker": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.DAL\\Repositories\\ICommentRepository.cs",
               "RelativeDocumentMoniker": "EventManagement.DAL\\Repositories\\ICommentRepository.cs",
@@ -886,7 +903,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 60,
               "Title": "IEventRepository.cs",
               "DocumentMoniker": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.DAL\\Repositories\\IEventRepository.cs",
               "RelativeDocumentMoniker": "EventManagement.DAL\\Repositories\\IEventRepository.cs",
@@ -898,7 +915,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 56,
               "Title": "CommentRepository.cs",
               "DocumentMoniker": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.DAL\\Repositories\\CommentRepository.cs",
               "RelativeDocumentMoniker": "EventManagement.DAL\\Repositories\\CommentRepository.cs",
@@ -910,7 +927,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 57,
               "Title": "CategoryRepository.cs",
               "DocumentMoniker": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.DAL\\Repositories\\CategoryRepository.cs",
               "RelativeDocumentMoniker": "EventManagement.DAL\\Repositories\\CategoryRepository.cs",
@@ -922,7 +939,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 39,
               "Title": "EventManagementDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.DAL\\Database\\EventManagementDbContext.cs",
               "RelativeDocumentMoniker": "EventManagement.DAL\\Database\\EventManagementDbContext.cs",
@@ -934,7 +951,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 49,
               "Title": "UserRole.cs",
               "DocumentMoniker": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.DAL\\Models\\UserRole.cs",
               "RelativeDocumentMoniker": "EventManagement.DAL\\Models\\UserRole.cs",
@@ -946,7 +963,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 45,
               "Title": "Location.cs",
               "DocumentMoniker": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.DAL\\Models\\Location.cs",
               "RelativeDocumentMoniker": "EventManagement.DAL\\Models\\Location.cs",
@@ -958,7 +975,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 48,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.DAL\\Models\\Category.cs",
               "RelativeDocumentMoniker": "EventManagement.DAL\\Models\\Category.cs",
@@ -970,7 +987,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 47,
               "Title": "Event.cs",
               "DocumentMoniker": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.DAL\\Models\\Event.cs",
               "RelativeDocumentMoniker": "EventManagement.DAL\\Models\\Event.cs",
@@ -982,7 +999,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 44,
               "Title": "Role.cs",
               "DocumentMoniker": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.DAL\\Models\\Role.cs",
               "RelativeDocumentMoniker": "EventManagement.DAL\\Models\\Role.cs",
@@ -994,7 +1011,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 46,
               "Title": "Registration.cs",
               "DocumentMoniker": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.DAL\\Models\\Registration.cs",
               "RelativeDocumentMoniker": "EventManagement.DAL\\Models\\Registration.cs",
@@ -1006,7 +1023,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 42,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\Luka\\OneDrive - Algebra\\Documents\\TW1\\EventManagement.DAL\\Models\\User.cs",
               "RelativeDocumentMoniker": "EventManagement.DAL\\Models\\User.cs",
