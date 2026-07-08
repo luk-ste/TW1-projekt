@@ -1,4 +1,5 @@
 ﻿
+using EventManagement.BL.Exceptions;
 using EventManagement.BL.Interfaces;
 using EventManagement.DAL.Models;
 using EventManagement.DAL.Repositories;
@@ -51,6 +52,10 @@ namespace EventManagement.BL.Services
 
         public async Task DeleteAsync(int id)
         {
+            var ev = await _eventRepository.GetByIdWithDetailsAsync(id);
+            if (ev == null)
+                throw new NotFoundException($"Event with id {id} not found");
+
             await _eventRepository.DeleteAsync(id);
         }
     }
